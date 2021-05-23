@@ -35,7 +35,7 @@ const TodoContainer = () => {
     return (
         <>
             <CreateTodo getTask={getTask} />
-            {task && task.map(task => <TodoItems key={task._id} taskList={task} deleteOnChange={deleteTask} UpdateCheckbox={UpdateCheckbox} />)}
+            {task && task.map(task => <TodoItems key={task.id} taskList={task} deleteOnChange={deleteTask} UpdateCheckbox={UpdateCheckbox} />)}
         </>
 
 
