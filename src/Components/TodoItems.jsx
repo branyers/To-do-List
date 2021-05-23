@@ -2,7 +2,7 @@ import React from 'react'
 
 const TodoItems = ({taskList, deleteOnChange, UpdateCheckbox}) => {
     const {id,task,student,isCompleted} = taskList
-   console.log(taskList)
+   
     return (
         <div>
         <input type="checkbox" defaultChecked={isCompleted} onChange={(e)=>UpdateCheckbox(taskList,e)}/>
