@@ -11,7 +11,7 @@ const TodoItems = ({taskList, deleteOnChange, UpdateCheckbox}) => {
 
             <span>{task} - {student}</span>
             {""}<span>{isCompleted}</span>{""}
-            <button onClick={()=>deleteOnChange(_id)}>Eliminar</button>
+            <button onClick={()=>deleteOnChange(id)}>Eliminar</button>
             
         </div>
     )
