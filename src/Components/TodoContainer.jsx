@@ -13,7 +13,6 @@ const TodoContainer = () => {
 
     const getTask = () => {
         getTodo().then((response) => {
-            console.log(response.data.todos)
             setTask(response.data.todos)
             return response.data.todos
         })
