@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const BaseURL = "https://todos-go.herokuapp.com/api"
+const BaseURL = "https://todos-academlo.herokuapp.com/"
 
 export const
  getTodo    = async () => await axios.get(`${BaseURL}/todos`),
