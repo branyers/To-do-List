@@ -28,7 +28,7 @@ const TodoContainer = () => {
 
     const UpdateCheckbox = async (todo, e) => {
         const { checked } = e.target
-        await updateTodo(todo._id, { ...todo, isCompleted: checked })
+        await updateTodo(todo.id, { ...todo, isCompleted: checked })
         getTask()
     }
 
