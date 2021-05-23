@@ -1,7 +1,7 @@
 import React from 'react'
 
 const TodoItems = ({taskList, deleteOnChange, UpdateCheckbox}) => {
-    const {_id,task,student,isCompleted} = taskList
+    const {id,task,student,isCompleted} = taskList
    console.log(taskList)
    console.log(_id)
     return (
